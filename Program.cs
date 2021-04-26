@@ -34,7 +34,7 @@ namespace Крестики_нолики
 
                     DrawField();
 
-                    for (int i = 0; i < 2; i++)
+                    for (int i = 0; i < 3; i++)
                     {
                         if (Field[i, 0] == Field[i, 1] && Field[i, 1] == Field[i, 2])
                         {
@@ -48,7 +48,7 @@ namespace Крестики_нолики
                         }
                     }
 
-                    for (int i = 0; i < 2; i++)
+                    for (int i = 0; i < 3; i++)
                     {
                         if (Field[0, i] == Field[1, i] && Field[1, i] == Field[2, i])
                         {
